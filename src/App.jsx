@@ -6,9 +6,12 @@ import SpecialOffers from './sections/SpecialOffers'
 import CustomerReviews from './sections/CustomerReviews'
 import Subscribe from './sections/Subscribe'
 import Footer from './sections/Footer'
+import NavBar from './components/NavBar'
+
 const App = () => {
   return (
     <main className='relative'>
+      <NavBar/>
       <section className='xl:padding-1 wide:padding-r padding-b'>
        <Hero/>
       </section>
