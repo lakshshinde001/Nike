@@ -12,6 +12,7 @@ export const shoes = [
     {
         thumbnail: thumbnailShoe1,
         bigShoe: bigShoe1,
+        name: "Shoe 1"
     },
     {
         thumbnail: thumbnailShoe2,
